@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Biodata</title>
+</head>
+<body>
+    
+    <h1>Form Biodata</h1>
+    <form action="" method="post">
+        <table>
+            <tr>
+                <td>NIM</td>
+                <td><input type="text" name="txtnim" size="15" maxlength="10">
+            </tr>
+            <tr>
+                <td>NAMA</td>
+                <td><input type="text" name="txtnama" size="30" maxlength="10">
+            </tr>
+            <tr>
+                <td>JENIS KELAMIN</td>
+                <td><input type="radio" name="rbjeniskelamin" value="P">Pria
+                <td><input type="radio" name="rbjeniskelamin" value="W">Wanita
+            </tr>
+            <tr>
+                <td>JURUSAN</td>
+                <td><select>
+                    <option>Ilmu Komputer</option>
+                    <option>RPL</option>
+                    <option>Sistem Informasi</option>
+                </td>
+            </tr>
+            <tr>
+                <td>HOBY</td>
+                <td><input type="checkbox" name="chkhobby" value="kopmuter">Komputer
+                <td><input type="checkbox">Musik
+                <td><input type="checkbox">Olahraga
+                <td><input type="checkbox">Travelling
+                </td>
+            </tr>
+            <tr>
+                <td>CATATAN</td>
+                <td><textarea name="" id="" cols="30" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td>FOTO</td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td>EMAIL</td>
+                <td><input type="text" name="txtemail" size="30" maxlength="10">
+            </tr>
+            <tr>
+                <td>SANDI LOGIN</td>
+                <td><input type="password" size="30" maxlength="10">
+            </tr>
+            <tr>
+                <td>ULANG SANDI LOGIN</td>
+                <td><input type="password" size="30" maxlength="10">
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" name="btnsimpan" value="Simpan">
+                <td><input type="submit" name="btnreset" value="Batal">
+                <td><input type="submit" name="btnperingatan" value="Peringatan">
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
