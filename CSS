@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class = " container mt-3">
+        <h2 class="alert alert-primary mb-5">Data Mahasiswa</h2>
+        <div class="row">
+            <div class="col-12 "><div class="card">
+                <div class="card-header">Form Registrasi</div>
+                <div class="card-body"> <form action="" method="post">
+                    <table>
+                        <tr>
+                            <td>NIM</td>
+                            <td><input style="color: azure; background-color:#0E5E6F ;" type="text" name="txtnim" size="15" maxlength="10">
+                        </tr>
+                        <tr>
+                            <td>NAMA</td>
+                            <td><input style="color: azure; background-color:#0E5E6F ;"  type="text" name="txtnama" size="30" maxlength="10">
+                        </tr>
+                        <tr>
+                            <td>JENIS KELAMIN</td>
+                            <td><input type="radio" name="rbjeniskelamin" value="P">Pria
+                            <td><input type="radio" name="rbjeniskelamin" value="W">Wanita
+                        </tr>
+                        <tr>
+                            <td>JURUSAN</td>
+                            <td><select>
+                                <option>Ilmu Komputer</option>
+                                <option>RPL</option>
+                                <option>Sistem Informasi</option>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>HOBY</td>
+                            <td><input type="checkbox" name="chkhobby" value="kopmuter">Komputer
+                            <td><input type="checkbox">Musik
+                            <td><input type="checkbox">Olahraga
+                            <td><input type="checkbox">Travelling
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>CATATAN</td>
+                            <td><textarea style="color: azure; background-color: #0E5E6F;" name="" id="" cols="30" rows="5"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>FOTO</td>
+                            <td><input type="file"></td>
+                        </tr>
+                        <tr>
+                            <td>EMAIL</td>
+                            <td><input style="color: azure; background-color:#0E5E6F ;"  type="text" name="txtemail" size="30" maxlength="10">
+                        </tr>
+                        <tr>
+                            <td>SANDI LOGIN</td>
+                            <td><input style="color: azure; background-color:#0E5E6F ;"  type="password" size="30" maxlength="10">
+                        </tr>
+                        <tr>
+                            <td>ULANG SANDI LOGIN</td>
+                            <td><input style="color: azure; background-color:#0E5E6F ;"  type="password" size="30" maxlength="10">
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input style="color: azure; background-color: green ;"  type="submit" name="btnsimpan" value="Simpan">
+                            <td><input style="color:azure; background-color: yellow ;"  type="submit" name="btnreset" value="Batal">
+                            <td><input style="color: azure; background-color : red ;"  type="submit" name="btnperingatan" value="Peringatan">
+                        </tr>
+                    </table>
+                </form></div>
+            </div>
+        </div>
+    </div>
+
+    <div class = " container mt-3">
+        <h2 class="alert alert-primary mb-5">Footer</h2>
+    </div>
+    <script src="bootstrap-5.2.2-dist/css/bootstrap.min.css"></script>
+
+</html>
